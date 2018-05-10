@@ -57,6 +57,7 @@ $ docker-compose build
 ## DB変更をする
 $ git add config/database.yml
 $ git commit -m "databaseの設定をdockerに合わせる"
+## ------------------------- Commit ID : 33d2bd0 ##
 
 ## 動作確認とコンテナ起動
 $ docker-compose up -d
@@ -77,6 +78,7 @@ $ docker-compose run --rm app rails db:create db:migrate
 ## 残りの差分をコミット
 $ git add .
 $ git commit -m "差分commit"
+## ------------------------- Commit ID : 0083992 ##
 
 $ git push origin head
 
